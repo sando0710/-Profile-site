@@ -13,21 +13,29 @@ body {
 }
 
 header{
-  background: red;
-  height: 100px;
+  height: 60px;
   padding: 0 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  .header_title{
-    background: black;
-    width: 100px;
-    height: 50px;
+  .header_title h1 a{
+      text-decoration: none;
+      color: black;
+      &:hover{
+        color: #e65f78;
+      }
   }
-  nav{
-    background: black;
-    width: 400px;
-    height: 50px;
+  nav ul {
+    list-style: none;
+    display: flex;
+    li a{
+        text-decoration: none;
+        color: black;
+        margin-left: 30px;
+        &:hover{
+          color: #e65f78;
+        }
+    }
   }
 }
 
