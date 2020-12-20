@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
 }
@@ -32,7 +33,7 @@ header .header_title h1 a {
 }
 
 header .header_title h1 a:hover {
-  color: #e65f78;
+  color: #e11c40;
 }
 
 header nav ul {
@@ -49,27 +50,36 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: #e65f78;
+  color: #e11c40;
 }
 
 .firstview {
-  background: blue;
-  height: 600px;
+  height: 664px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../img/img7.jpg");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
 }
 
-.firstview .firstview_title {
-  margin: auto;
-  height: 100px;
-  width: 400px;
-  background: black;
+.firstview .firstview_title h1 {
+  color: white;
+}
+
+.firstview .firstview_title h1 span {
+  font-size: 60px;
 }
 
 .aboutme {
   padding: 70px 5%;
-  background: green;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,10 +88,39 @@ header nav ul li a:hover {
           justify-content: space-between;
 }
 
-.aboutme .aboutme_img {
-  width: 49%;
+.aboutme .aboutme_img　img {
+  width: 536px;
   height: 333px;
-  background: black;
+}
+
+.aboutme .aboutme_img　img h2 {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+}
+
+.aboutme .aboutme_img　img ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  margin-top: 0;
+}
+
+.aboutme .aboutme_img　img ul li {
+  margin-right: 20px;
+}
+
+.aboutme .aboutme_img　img ul li a {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.aboutme .aboutme_img　img ul li a:hover {
+  fill: #e65f78;
 }
 
 .skill {

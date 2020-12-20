@@ -22,7 +22,7 @@ header{
       text-decoration: none;
       color: black;
       &:hover{
-        color: #e65f78;
+        color: #e11c40;
       }
   }
   nav ul {
@@ -33,33 +33,55 @@ header{
         color: black;
         margin-left: 30px;
         &:hover{
-          color: #e65f78;
+          color: #e11c40;
         }
     }
   }
 }
 
 .firstview{
-  background: blue;
-  height: 600px;
+  height: 664px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../img/img7.jpg");
   display: flex;
-  .firstview_title{
-    margin: auto;
-    height: 100px;
-    width: 400px;
-    background: black;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  .firstview_title h1 {
+      color: white;
+    span{
+      font-size: 60px;
+    }
   }
 }
 
 .aboutme{
   padding: 70px 5%;
-  background: green;
   display: flex;
   justify-content: space-between;
-  .aboutme_img{
-    width: 49%;
+  .aboutme_img　img{
+    width: 536px;
     height: 333px;
-    background: black;
+    h2{
+      margin-block-start: 0;
+    }
+    ul{
+      list-style: none;
+      display: flex;
+      padding-inline-start: 0;
+      margin-block-end: 0;
+      margin-top: 0;
+      li{
+        margin-right: 20px;
+        a{
+          transition: all 0.3s ease 0s;
+          &:hover{
+            fill: #e65f78;
+          }
+        }
+      }
+    }
   }
 }
 
