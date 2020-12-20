@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+}
+
+.common_subtitle {
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.common_section {
+  padding: 70px 5%;
+  margin: 0 auto;
+}
+
+header{
+  background: red;
+  height: 100px;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .header_title{
+    background: black;
+    width: 100px;
+    height: 50px;
+  }
+  nav{
+    background: black;
+    width: 400px;
+    height: 50px;
+  }
+}
+
+.firstview{
+  background: blue;
+  height: 600px;
+  display: flex;
+  .firstview_title{
+    margin: auto;
+    height: 100px;
+    width: 400px;
+    background: black;
+  }
+}
+
+.aboutme{
+  padding: 70px 5%;
+  background: green;
+  display: flex;
+  justify-content: space-between;
+  .aboutme_img{
+    width: 49%;
+    height: 333px;
+    background: black;
+  }
+}
+
+.skill{
+  background: gray;
+  .skill_title{
+    height: 50px;
+    background: black;
+  }
+  .skill_content{
+    height: 400px;
+    background: black;
+  }
+}
+
+.works{
+  background: gold;
+  .works_title{
+    height: 50px;
+    background: black;
+  }
+  ul{
+    height: 400px;
+    background: black;
+  }
+}
+
+.timeline{
+  background: fuchsia;
+  .timeline_title{
+    height: 50px;
+    background: black;
+  }
+  .timeline_content{
+    height: 400px;
+    background: black;
+  }
+}
+
+.contact{
+  background: aqua;
+  .contact_title{
+    height: 50px;
+    background: black;
+  }
+  .form{
+    height: 400px;
+    background: black;
+  }
+}
+
+footer{
+  padding: 20px 0;
+  background: navy;
+  ul{
+    width: 400px;
+    height: 50px;
+    background: black;
+    margin: 0 auto;
+  }
+  p{
+    text-align: center;
+  }
+}
