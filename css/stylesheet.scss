@@ -60,7 +60,7 @@ header{
   padding: 70px 5%;
   display: flex;
   justify-content: space-between;
-  .aboutme_img　img{
+  .aboutme_img img{
     width: 536px;
     height: 333px;
     h2{
@@ -91,7 +91,7 @@ header{
     table{
       border-collapse: collapse;
       border-spacing: 0;
-      width: 100%;
+      width: 50%;
       background: white;
       tr{
         border-bottom: solid 1px #eee;
@@ -152,7 +152,7 @@ header{
       border-radius: 10px;
 
       img {
-        width: 100%;
+        width: 50%;
         border-radius: 8px 8px 0 0;
       }
 

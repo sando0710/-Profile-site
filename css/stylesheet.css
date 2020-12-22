@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   margin: 0;
 }
@@ -88,17 +87,17 @@ header nav ul li a:hover {
           justify-content: space-between;
 }
 
-.aboutme .aboutme_img　img {
+.aboutme .aboutme_img img {
   width: 536px;
   height: 333px;
 }
 
-.aboutme .aboutme_img　img h2 {
+.aboutme .aboutme_img img h2 {
   -webkit-margin-before: 0;
           margin-block-start: 0;
 }
 
-.aboutme .aboutme_img　img ul {
+.aboutme .aboutme_img img ul {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -110,16 +109,16 @@ header nav ul li a:hover {
   margin-top: 0;
 }
 
-.aboutme .aboutme_img　img ul li {
+.aboutme .aboutme_img img ul li {
   margin-right: 20px;
 }
 
-.aboutme .aboutme_img　img ul li a {
+.aboutme .aboutme_img img ul li a {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 
-.aboutme .aboutme_img　img ul li a:hover {
+.aboutme .aboutme_img img ul li a:hover {
   fill: #e65f78;
 }
 
@@ -130,7 +129,7 @@ header nav ul li a:hover {
 .skill .skill_content table {
   border-collapse: collapse;
   border-spacing: 0;
-  width: 100%;
+  width: 50%;
   background: white;
 }
 
@@ -209,7 +208,7 @@ header nav ul li a:hover {
 }
 
 .works ul li img {
-  width: 100%;
+  width: 50%;
   border-radius: 8px 8px 0 0;
 }
 
