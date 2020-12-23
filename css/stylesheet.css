@@ -203,12 +203,12 @@ header nav ul li a:hover {
 
 .works ul li {
   border: 2px solid #dcdcdc;
-  width: 32%;
+  width: 30%;
   border-radius: 10px;
 }
 
 .works ul li img {
-  width: 50%;
+  width: 40%;
   border-radius: 8px 8px 0 0;
 }
 
